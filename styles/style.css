@@ -9,14 +9,18 @@ body {
 }
 
 #gradient-text {
-    background: linear-gradient(90deg, #0a69ce, #8e15ca, rgb(255, 115, 0), rgb(218, 104, 10));
+    background: linear-gradient(98deg, #0090F7, #0090F7, #BA62FC, #F2416B, #F55600);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
-    font-weight: 500;
+    display: inline-block;
+    font-weight: 500 !important;
     font-size: 25px;
-    animation: gradiente-move 3s ease infinite;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0;
+    
 }
 
 .nav-container {
