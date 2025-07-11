@@ -51,9 +51,15 @@ main {
     background-size: auto;
     background-position: center -34px;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 544px;
     /* Importante: defina uma altura! */
     width: 100%;
+}
+
+footer{
+    background-color: black;
+    max-width: 100%;
+    height: 100px;
 }
 
 #main-text,
